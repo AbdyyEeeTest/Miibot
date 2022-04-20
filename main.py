@@ -8,6 +8,7 @@ load_dotenv()
 client = commands.Bot(command_prefix='!')
 client.remove_command('help')
 TOKEN = os.getenv('TOKEN')
+cock = 'e'
 
 @client.event
 async def on_ready():
